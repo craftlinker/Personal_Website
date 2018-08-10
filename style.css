@@ -1,0 +1,59 @@
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; 
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; 
+  line-height: 60px; 
+  background-color: #626851;
+}
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+     align-content: center;
+}
+p{
+  align-content: center;
+}
+
+.col-md-4 {
+  
+ 
+}
+
+.me{
+    justify-content: right
+}
+
+.card-body{
+  background-color: black;
+}
+
+#skill{
+  border: 7px round solid brown;
+  font-family: 'Cabin Sketch', cursive;
+  color:white;
+  font-size: 40px;
+  
+  background-image: url("https://tendle.com/wp-content/uploads/2014/12/chalkboard-blank-2.jpg");
+ 
+  margin-bottom: 5%;
+  margin-top: 5%;
+  
+ 
+
+}
+h3{
+  position: center;
+}
+
+
