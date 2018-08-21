@@ -37,6 +37,9 @@ p{
 .card-body{
   background-color: black;
 }
+.jumbotron {
+  background-image: url("https://cdn-images-1.medium.com/max/2000/1*EE4IrlniNAhubIUrFqV3FQ.jpeg");
+}
 
 #skill{
   border: 7px round solid brown;
