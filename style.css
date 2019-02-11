@@ -1,60 +1,35 @@
 
 
-html {
-  position: relative;
-  min-height: 100%;
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
 }
-body {
-  margin-bottom: 60px; 
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px; 
-  line-height: 60px; 
-  background-color: #626851;
-}
-.container {
-    width: auto;
-    max-width: 680px;
-    padding: 0 15px;
-     align-content: center;
-}
-p{
-  align-content: center;
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 }
 
-.col-md-4 {
-  
- 
+.jumbotron p:last-child {
+  margin-bottom: 0;
 }
 
-.me{
-    justify-content: right
+.jumbotron-heading {
+  font-weight: 300;
 }
 
-.card-body{
-  background-color: black;
+.jumbotron .container {
+  max-width: 40rem;
 }
 
-
-#skill{
-  border: 7px round solid brown;
-  font-family: 'Cabin Sketch', cursive;
-  color:white;
-  font-size: 40px;
-  
-  background-image: url("https://tendle.com/wp-content/uploads/2014/12/chalkboard-blank-2.jpg");
- 
-  margin-bottom: 5%;
-  margin-top: 5%;
-  
- 
-
-}
-h3{
-  position: center;
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-
+footer p {
+  margin-bottom: .25rem;
+}
